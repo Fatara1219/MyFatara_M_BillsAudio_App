@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCAECFC824EC293500883D09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAECFC724EC293500883D09 /* AppDelegate.swift */; };
+		CCAECFCA24EC293500883D09 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAECFC924EC293500883D09 /* SceneDelegate.swift */; };
+		CCAECFCC24EC293500883D09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAECFCB24EC293500883D09 /* ViewController.swift */; };
+		CCAECFCF24EC293500883D09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCAECFCD24EC293500883D09 /* Main.storyboard */; };
+		CCAECFD224EC293500883D09 /* MyFatara_M_BillsAudio_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CCAECFD024EC293500883D09 /* MyFatara_M_BillsAudio_App.xcdatamodeld */; };
+		CCAECFD424EC293700883D09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCAECFD324EC293700883D09 /* Assets.xcassets */; };
+		CCAECFD724EC293700883D09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCAECFD524EC293700883D09 /* LaunchScreen.storyboard */; };
+		CCAECFE224EC293700883D09 /* MyFatara_M_BillsAudio_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAECFE124EC293700883D09 /* MyFatara_M_BillsAudio_AppTests.swift */; };
+		CCAECFED24EC293700883D09 /* MyFatara_M_BillsAudio_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAECFEC24EC293700883D09 /* MyFatara_M_BillsAudio_AppUITests.swift */; };
+		CCAECFFB24EC2A2100883D09 /* resizer.php.png in Resources */ = {isa = PBXBuildFile; fileRef = CCAECFFA24EC2A2100883D09 /* resizer.php.png */; };
+		CCAECFFF24EC332F00883D09 /* teen-titans-theme-song 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CCAECFFE24EC332F00883D09 /* teen-titans-theme-song 2.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCAECFDE24EC293700883D09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCAECFBC24EC293500883D09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCAECFC324EC293500883D09;
+			remoteInfo = MyFatara_M_BillsAudio_App;
+		};
+		CCAECFE924EC293700883D09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCAECFBC24EC293500883D09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCAECFC324EC293500883D09;
+			remoteInfo = MyFatara_M_BillsAudio_App;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCAECFC424EC293500883D09 /* MyFatara_M_BillsAudio_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFatara_M_BillsAudio_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCAECFC724EC293500883D09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CCAECFC924EC293500883D09 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CCAECFCB24EC293500883D09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CCAECFCE24EC293500883D09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCAECFD124EC293500883D09 /* MyFatara_M_BillsAudio_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyFatara_M_BillsAudio_App.xcdatamodel; sourceTree = "<group>"; };
+		CCAECFD324EC293700883D09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCAECFD624EC293700883D09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCAECFD824EC293700883D09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCAECFDD24EC293700883D09 /* MyFatara_M_BillsAudio_AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFatara_M_BillsAudio_AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCAECFE124EC293700883D09 /* MyFatara_M_BillsAudio_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFatara_M_BillsAudio_AppTests.swift; sourceTree = "<group>"; };
+		CCAECFE324EC293700883D09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCAECFE824EC293700883D09 /* MyFatara_M_BillsAudio_AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFatara_M_BillsAudio_AppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCAECFEC24EC293700883D09 /* MyFatara_M_BillsAudio_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFatara_M_BillsAudio_AppUITests.swift; sourceTree = "<group>"; };
+		CCAECFEE24EC293700883D09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCAECFFA24EC2A2100883D09 /* resizer.php.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = resizer.php.png; sourceTree = "<group>"; };
+		CCAECFFE24EC332F00883D09 /* teen-titans-theme-song 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "teen-titans-theme-song 2.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCAECFC124EC293500883D09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCAECFDA24EC293700883D09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCAECFE524EC293700883D09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCAECFBB24EC293500883D09 = {
+			isa = PBXGroup;
+			children = (
+				CCAECFC624EC293500883D09 /* MyFatara_M_BillsAudio_App */,
+				CCAECFE024EC293700883D09 /* MyFatara_M_BillsAudio_AppTests */,
+				CCAECFEB24EC293700883D09 /* MyFatara_M_BillsAudio_AppUITests */,
+				CCAECFC524EC293500883D09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCAECFC524EC293500883D09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCAECFC424EC293500883D09 /* MyFatara_M_BillsAudio_App.app */,
+				CCAECFDD24EC293700883D09 /* MyFatara_M_BillsAudio_AppTests.xctest */,
+				CCAECFE824EC293700883D09 /* MyFatara_M_BillsAudio_AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCAECFC624EC293500883D09 /* MyFatara_M_BillsAudio_App */ = {
+			isa = PBXGroup;
+			children = (
+				CCAECFC724EC293500883D09 /* AppDelegate.swift */,
+				CCAECFC924EC293500883D09 /* SceneDelegate.swift */,
+				CCAECFCB24EC293500883D09 /* ViewController.swift */,
+				CCAECFCD24EC293500883D09 /* Main.storyboard */,
+				CCAECFFE24EC332F00883D09 /* teen-titans-theme-song 2.mp3 */,
+				CCAECFFA24EC2A2100883D09 /* resizer.php.png */,
+				CCAECFD324EC293700883D09 /* Assets.xcassets */,
+				CCAECFD524EC293700883D09 /* LaunchScreen.storyboard */,
+				CCAECFD824EC293700883D09 /* Info.plist */,
+				CCAECFD024EC293500883D09 /* MyFatara_M_BillsAudio_App.xcdatamodeld */,
+			);
+			path = MyFatara_M_BillsAudio_App;
+			sourceTree = "<group>";
+		};
+		CCAECFE024EC293700883D09 /* MyFatara_M_BillsAudio_AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCAECFE124EC293700883D09 /* MyFatara_M_BillsAudio_AppTests.swift */,
+				CCAECFE324EC293700883D09 /* Info.plist */,
+			);
+			path = MyFatara_M_BillsAudio_AppTests;
+			sourceTree = "<group>";
+		};
+		CCAECFEB24EC293700883D09 /* MyFatara_M_BillsAudio_AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CCAECFEC24EC293700883D09 /* MyFatara_M_BillsAudio_AppUITests.swift */,
+				CCAECFEE24EC293700883D09 /* Info.plist */,
+			);
+			path = MyFatara_M_BillsAudio_AppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCAECFC324EC293500883D09 /* MyFatara_M_BillsAudio_App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCAECFF124EC293700883D09 /* Build configuration list for PBXNativeTarget "MyFatara_M_BillsAudio_App" */;
+			buildPhases = (
+				CCAECFC024EC293500883D09 /* Sources */,
+				CCAECFC124EC293500883D09 /* Frameworks */,
+				CCAECFC224EC293500883D09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyFatara_M_BillsAudio_App;
+			productName = MyFatara_M_BillsAudio_App;
+			productReference = CCAECFC424EC293500883D09 /* MyFatara_M_BillsAudio_App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCAECFDC24EC293700883D09 /* MyFatara_M_BillsAudio_AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCAECFF424EC293700883D09 /* Build configuration list for PBXNativeTarget "MyFatara_M_BillsAudio_AppTests" */;
+			buildPhases = (
+				CCAECFD924EC293700883D09 /* Sources */,
+				CCAECFDA24EC293700883D09 /* Frameworks */,
+				CCAECFDB24EC293700883D09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCAECFDF24EC293700883D09 /* PBXTargetDependency */,
+			);
+			name = MyFatara_M_BillsAudio_AppTests;
+			productName = MyFatara_M_BillsAudio_AppTests;
+			productReference = CCAECFDD24EC293700883D09 /* MyFatara_M_BillsAudio_AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CCAECFE724EC293700883D09 /* MyFatara_M_BillsAudio_AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCAECFF724EC293700883D09 /* Build configuration list for PBXNativeTarget "MyFatara_M_BillsAudio_AppUITests" */;
+			buildPhases = (
+				CCAECFE424EC293700883D09 /* Sources */,
+				CCAECFE524EC293700883D09 /* Frameworks */,
+				CCAECFE624EC293700883D09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCAECFEA24EC293700883D09 /* PBXTargetDependency */,
+			);
+			name = MyFatara_M_BillsAudio_AppUITests;
+			productName = MyFatara_M_BillsAudio_AppUITests;
+			productReference = CCAECFE824EC293700883D09 /* MyFatara_M_BillsAudio_AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCAECFBC24EC293500883D09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Fatara Muhammad";
+				TargetAttributes = {
+					CCAECFC324EC293500883D09 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					CCAECFDC24EC293700883D09 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = CCAECFC324EC293500883D09;
+					};
+					CCAECFE724EC293700883D09 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = CCAECFC324EC293500883D09;
+					};
+				};
+			};
+			buildConfigurationList = CCAECFBF24EC293500883D09 /* Build configuration list for PBXProject "MyFatara_M_BillsAudio_App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCAECFBB24EC293500883D09;
+			productRefGroup = CCAECFC524EC293500883D09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCAECFC324EC293500883D09 /* MyFatara_M_BillsAudio_App */,
+				CCAECFDC24EC293700883D09 /* MyFatara_M_BillsAudio_AppTests */,
+				CCAECFE724EC293700883D09 /* MyFatara_M_BillsAudio_AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCAECFC224EC293500883D09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCAECFFB24EC2A2100883D09 /* resizer.php.png in Resources */,
+				CCAECFD724EC293700883D09 /* LaunchScreen.storyboard in Resources */,
+				CCAECFD424EC293700883D09 /* Assets.xcassets in Resources */,
+				CCAECFFF24EC332F00883D09 /* teen-titans-theme-song 2.mp3 in Resources */,
+				CCAECFCF24EC293500883D09 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCAECFDB24EC293700883D09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCAECFE624EC293700883D09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCAECFC024EC293500883D09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCAECFCC24EC293500883D09 /* ViewController.swift in Sources */,
+				CCAECFC824EC293500883D09 /* AppDelegate.swift in Sources */,
+				CCAECFD224EC293500883D09 /* MyFatara_M_BillsAudio_App.xcdatamodeld in Sources */,
+				CCAECFCA24EC293500883D09 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCAECFD924EC293700883D09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCAECFE224EC293700883D09 /* MyFatara_M_BillsAudio_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCAECFE424EC293700883D09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCAECFED24EC293700883D09 /* MyFatara_M_BillsAudio_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCAECFDF24EC293700883D09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCAECFC324EC293500883D09 /* MyFatara_M_BillsAudio_App */;
+			targetProxy = CCAECFDE24EC293700883D09 /* PBXContainerItemProxy */;
+		};
+		CCAECFEA24EC293700883D09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCAECFC324EC293500883D09 /* MyFatara_M_BillsAudio_App */;
+			targetProxy = CCAECFE924EC293700883D09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCAECFCD24EC293500883D09 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCAECFCE24EC293500883D09 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCAECFD524EC293700883D09 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCAECFD624EC293700883D09 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCAECFEF24EC293700883D09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CCAECFF024EC293700883D09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCAECFF224EC293700883D09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyFatara_M_BillsAudio_App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "genesysworks.MyFatara-M-BillsAudio-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCAECFF324EC293700883D09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyFatara_M_BillsAudio_App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "genesysworks.MyFatara-M-BillsAudio-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CCAECFF524EC293700883D09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyFatara_M_BillsAudio_AppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "genesysworks.MyFatara-M-BillsAudio-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyFatara_M_BillsAudio_App.app/MyFatara_M_BillsAudio_App";
+			};
+			name = Debug;
+		};
+		CCAECFF624EC293700883D09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyFatara_M_BillsAudio_AppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "genesysworks.MyFatara-M-BillsAudio-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyFatara_M_BillsAudio_App.app/MyFatara_M_BillsAudio_App";
+			};
+			name = Release;
+		};
+		CCAECFF824EC293700883D09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyFatara_M_BillsAudio_AppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "genesysworks.MyFatara-M-BillsAudio-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyFatara_M_BillsAudio_App;
+			};
+			name = Debug;
+		};
+		CCAECFF924EC293700883D09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyFatara_M_BillsAudio_AppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "genesysworks.MyFatara-M-BillsAudio-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyFatara_M_BillsAudio_App;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCAECFBF24EC293500883D09 /* Build configuration list for PBXProject "MyFatara_M_BillsAudio_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCAECFEF24EC293700883D09 /* Debug */,
+				CCAECFF024EC293700883D09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCAECFF124EC293700883D09 /* Build configuration list for PBXNativeTarget "MyFatara_M_BillsAudio_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCAECFF224EC293700883D09 /* Debug */,
+				CCAECFF324EC293700883D09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCAECFF424EC293700883D09 /* Build configuration list for PBXNativeTarget "MyFatara_M_BillsAudio_AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCAECFF524EC293700883D09 /* Debug */,
+				CCAECFF624EC293700883D09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCAECFF724EC293700883D09 /* Build configuration list for PBXNativeTarget "MyFatara_M_BillsAudio_AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCAECFF824EC293700883D09 /* Debug */,
+				CCAECFF924EC293700883D09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CCAECFD024EC293500883D09 /* MyFatara_M_BillsAudio_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CCAECFD124EC293500883D09 /* MyFatara_M_BillsAudio_App.xcdatamodel */,
+			);
+			currentVersion = CCAECFD124EC293500883D09 /* MyFatara_M_BillsAudio_App.xcdatamodel */;
+			path = MyFatara_M_BillsAudio_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CCAECFBC24EC293500883D09 /* Project object */;
+}
